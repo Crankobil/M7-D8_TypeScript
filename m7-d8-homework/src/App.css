@@ -24,12 +24,13 @@
 
 .Navbar {
   background-color: black;
-  color: white;
+  color:rgb(1,255,132)!important;
 }
 
 .Table{
   color: white!important;
 }
+
 
 
 @keyframes App-logo-spin {

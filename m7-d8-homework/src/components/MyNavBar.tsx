@@ -3,7 +3,7 @@ import {Navbar,Nav, NavDropdown} from "react-bootstrap"
 const MyNavBar = () => {
     return (
 <Navbar  bg="black" variant="dark" expand="lg" className="Navbar">
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar.Brand href="#home"style={{color: "lime-green", fontWeight: "bold"}}>Strive Music</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">

@@ -35,7 +35,7 @@ return (
     <div>
     <h1 className="mb-15 text-center"> Welcome to Strive Music</h1>
     <Form className="d-flex searchBar">
-        <Form.Control type="text" placeholder="Large text" className="mr-2" value={searchQuery} onChange={handleSearchQuery}/>
+        <Form.Control type="text" placeholder="Search here for your music..." className="mr-2" value={searchQuery} onChange={handleSearchQuery}/>
         <Button variant="outline-light" onClick={fetchMusic} >Search</Button>
     </Form>
     {musicData && musicData.map(result => { return <DropDownTable picture={result.album.cover_small} title={result.title} artist={result.artist.name}/>})
